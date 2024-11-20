@@ -1,0 +1,196 @@
+2024-11-06 21:54:40,371 - INFO - Dataset D, sample=10000
+2024-11-06 21:54:40,393 - INFO - [D - Sample 10000] Splitting long triplegs into shorter segments
+2024-11-06 21:54:40,763 - INFO - [D - Sample 10000] Completed splitting long triplegs in 0.37 seconds
+2024-11-06 21:54:40,901 - INFO - [D - Sample 10000] Starting preprocessing of triplegs data
+2024-11-06 21:54:40,905 - INFO - [D - Sample 10000] Filtered data to the first 30 days
+2024-11-06 21:54:40,933 - INFO - [D - Sample 10000] Converted LINESTRING to integer coordinates
+2024-11-06 21:54:40,934 - INFO - [D - Sample 10000] Completed preprocessing of triplegs in 0.03 seconds
+2024-11-06 21:54:40,934 - INFO - [D - Sample 10000] Minimum support threshold: 2
+2024-11-06 21:54:40,934 - INFO - [D - Sample 10000] Starting GSP algorithm with min_support=2
+2024-11-06 21:54:40,937 - INFO - generate_candidates for length 2: 0.00 seconds
+2024-11-06 21:54:41,040 - INFO - Optimized count_support: 0.10 seconds
+2024-11-06 21:54:41,041 - INFO - prune_candidates: 0.00 seconds
+2024-11-06 21:54:49,049 - INFO - generate_new_candidates for length 3: 8.01 seconds
+2024-11-06 21:54:49,147 - INFO - Optimized count_support: 0.10 seconds
+2024-11-06 21:54:49,148 - INFO - prune_candidates: 0.00 seconds
+2024-11-06 21:54:49,150 - INFO - generate_new_candidates for length 4: 0.00 seconds
+2024-11-06 21:54:49,150 - INFO - [D - Sample 10000] Completed GSP algorithm in 8.22 seconds
+2024-11-06 21:54:49,150 - INFO - [D - Sample 10000] Number of frequent sequences: 13635
+2024-11-06 21:54:49,150 - INFO - [D - Sample 10000] Saving GSP results
+2024-11-06 21:54:49,172 - INFO - [D - Sample 10000] GSP results saved to gsp_D_sample10000_optimized.csv in 0.02 seconds
+2024-11-06 21:54:49,172 - INFO - =============================================
+2024-11-09 21:39:44,105 - INFO - Dataset D, sample=10000
+2024-11-09 21:39:44,131 - INFO - [D - Sample 10000] Splitting long triplegs into shorter segments
+2024-11-09 21:39:44,491 - INFO - [D - Sample 10000] Completed splitting long triplegs in 0.36 seconds
+2024-11-09 21:39:44,635 - INFO - [D - Sample 10000] Starting preprocessing of triplegs data
+2024-11-09 21:39:44,651 - INFO - [D - Sample 10000] Filtered data to the first 30 days
+2024-11-09 21:39:44,678 - INFO - [D - Sample 10000] Converted LINESTRING to integer coordinates
+2024-11-09 21:39:44,679 - INFO - [D - Sample 10000] Completed preprocessing of triplegs in 0.04 seconds
+2024-11-09 21:39:44,679 - INFO - [D - Sample 10000] Minimum support threshold: 2
+2024-11-09 21:39:44,679 - INFO - [D - Sample 10000] Starting GSP algorithm with min_support=2
+2024-11-09 21:39:44,682 - INFO - generate_candidates for length 2: 0.00 seconds
+2024-11-09 21:39:44,793 - INFO - Optimized count_support: 0.11 seconds
+2024-11-09 21:39:44,795 - INFO - prune_candidates: 0.00 seconds
+2024-11-09 21:39:53,035 - INFO - generate_new_candidates for length 3: 8.24 seconds
+2024-11-09 21:39:53,142 - INFO - Optimized count_support: 0.11 seconds
+2024-11-09 21:39:53,142 - INFO - prune_candidates: 0.00 seconds
+2024-11-09 21:39:53,143 - INFO - generate_new_candidates for length 4: 0.00 seconds
+2024-11-09 21:39:53,143 - INFO - [D - Sample 10000] Completed GSP algorithm in 8.46 seconds
+2024-11-09 21:39:53,143 - INFO - [D - Sample 10000] Number of frequent sequences: 13592
+2024-11-09 21:39:53,143 - INFO - [D - Sample 10000] Saving GSP results
+2024-11-09 21:39:53,176 - INFO - [D - Sample 10000] GSP results saved to gsp_D_sample10000_optimized.csv in 0.03 seconds
+2024-11-09 21:39:53,176 - INFO - =============================================
+2024-11-09 21:43:16,742 - INFO - Dataset D, sample=full
+2024-11-09 21:43:18,755 - INFO - [D - Sample full] Splitting long triplegs into shorter segments
+2024-11-09 21:43:52,592 - INFO - [D - Sample full] Completed splitting long triplegs in 33.84 seconds
+2024-11-09 21:44:06,346 - INFO - [D - Sample full] Starting preprocessing of triplegs data
+2024-11-09 21:44:06,550 - INFO - [D - Sample full] Filtered data to the first 30 days
+2024-11-09 21:44:08,127 - INFO - [D - Sample full] Converted LINESTRING to integer coordinates
+2024-11-09 21:44:08,240 - INFO - [D - Sample full] Completed preprocessing of triplegs in 1.89 seconds
+2024-11-09 21:44:08,243 - INFO - [D - Sample full] Minimum support threshold: 5
+2024-11-09 21:44:08,243 - INFO - [D - Sample full] Starting GSP algorithm with min_support=5
+2024-11-09 21:44:08,651 - INFO - generate_candidates for length 2: 0.41 seconds
+2024-11-09 21:44:16,526 - INFO - Optimized count_support: 7.87 seconds
+2024-11-09 21:44:16,733 - INFO - prune_candidates: 0.21 seconds
+2024-11-10 12:04:14,817 - INFO - generate_new_candidates for length 3: 51598.05 seconds
+2024-11-10 12:04:28,183 - INFO - Optimized count_support: 13.36 seconds
+2024-11-10 12:04:28,201 - INFO - prune_candidates: 0.00 seconds
+2024-11-10 12:04:33,608 - INFO - generate_new_candidates for length 4: 0.00 seconds
+2024-11-10 12:04:33,608 - INFO - [D - Sample full] Completed GSP algorithm in 51625.36 seconds
+2024-11-10 12:04:33,608 - INFO - [D - Sample full] Number of frequent sequences: 693465
+2024-11-10 12:04:33,608 - INFO - [D - Sample full] Saving GSP results
+2024-11-10 12:04:34,815 - INFO - [D - Sample full] GSP results saved to gsp_D_samplefull_optimized.csv in 1.21 seconds
+2024-11-10 12:04:34,823 - INFO - =============================================
+2024-11-10 12:04:34,823 - INFO - Dataset B, sample=full
+2024-11-10 12:04:39,482 - INFO - [B - Sample full] Splitting long triplegs into shorter segments
+2024-11-10 12:06:58,796 - INFO - [B - Sample full] Completed splitting long triplegs in 139.31 seconds
+2024-11-10 12:07:52,754 - INFO - [B - Sample full] Starting preprocessing of triplegs data
+2024-11-10 12:07:53,460 - INFO - [B - Sample full] Filtered data to the first 30 days
+2024-11-10 12:07:57,931 - INFO - [B - Sample full] Converted LINESTRING to integer coordinates
+2024-11-10 12:07:58,415 - INFO - [B - Sample full] Completed preprocessing of triplegs in 5.66 seconds
+2024-11-10 12:07:58,474 - INFO - [B - Sample full] Minimum support threshold: 5
+2024-11-10 12:07:58,474 - INFO - [B - Sample full] Starting GSP algorithm with min_support=5
+2024-11-10 12:07:59,795 - INFO - generate_candidates for length 2: 1.32 seconds
+2024-11-10 12:08:15,352 - INFO - Optimized count_support: 15.56 seconds
+2024-11-10 12:08:15,698 - INFO - prune_candidates: 0.35 seconds
+2024-11-12 07:48:05,188 - INFO - generate_new_candidates for length 3: 157189.44 seconds
+2024-11-12 07:48:41,339 - INFO - Optimized count_support: 36.08 seconds
+2024-11-12 07:48:41,380 - INFO - prune_candidates: 0.00 seconds
+2024-11-12 07:49:02,008 - INFO - generate_new_candidates for length 4: 0.00 seconds
+2024-11-12 07:49:02,010 - INFO - [B - Sample full] Completed GSP algorithm in 157263.53 seconds
+2024-11-12 07:49:02,206 - INFO - [B - Sample full] Number of frequent sequences: 1087041
+2024-11-12 07:49:02,206 - INFO - [B - Sample full] Saving GSP results
+2024-11-12 07:49:04,619 - INFO - [B - Sample full] GSP results saved to gsp_B_samplefull_optimized.csv in 2.41 seconds
+2024-11-12 07:49:04,633 - INFO - =============================================
+2024-11-12 07:49:04,633 - INFO - Dataset C, sample=full
+2024-11-12 07:49:10,817 - INFO - [C - Sample full] Splitting long triplegs into shorter segments
+2024-11-12 07:50:57,282 - INFO - [C - Sample full] Completed splitting long triplegs in 106.47 seconds
+2024-11-12 07:51:40,826 - INFO - [C - Sample full] Starting preprocessing of triplegs data
+2024-11-12 07:51:41,405 - INFO - [C - Sample full] Filtered data to the first 30 days
+2024-11-12 07:51:44,833 - INFO - [C - Sample full] Converted LINESTRING to integer coordinates
+2024-11-12 07:51:45,225 - INFO - [C - Sample full] Completed preprocessing of triplegs in 4.40 seconds
+2024-11-12 07:51:45,377 - INFO - [C - Sample full] Minimum support threshold: 5
+2024-11-12 07:51:45,378 - INFO - [C - Sample full] Starting GSP algorithm with min_support=5
+2024-11-12 07:51:46,408 - INFO - generate_candidates for length 2: 1.03 seconds
+2024-11-12 07:51:57,893 - INFO - Optimized count_support: 11.48 seconds
+2024-11-12 07:51:58,151 - INFO - prune_candidates: 0.26 seconds
+2024-11-13 08:37:55,138 - INFO - generate_new_candidates for length 3: 89156.95 seconds
+2024-11-13 08:38:36,204 - INFO - Optimized count_support: 41.05 seconds
+2024-11-13 08:38:36,226 - INFO - prune_candidates: 0.00 seconds
+2024-11-13 08:39:00,093 - INFO - generate_new_candidates for length 4: 0.00 seconds
+2024-11-13 08:39:00,093 - INFO - [C - Sample full] Completed GSP algorithm in 89234.72 seconds
+2024-11-13 08:39:00,435 - INFO - [C - Sample full] Number of frequent sequences: 799809
+2024-11-13 08:39:00,435 - INFO - [C - Sample full] Saving GSP results
+2024-11-13 08:39:01,902 - INFO - [C - Sample full] GSP results saved to gsp_C_samplefull_optimized.csv in 1.47 seconds
+2024-11-13 08:39:01,912 - INFO - =============================================
+2024-11-13 08:39:01,913 - INFO - Dataset A, sample=full
+2024-11-13 08:39:28,398 - INFO - [A - Sample full] Splitting long triplegs into shorter segments
+2024-11-13 08:49:57,369 - INFO - [A - Sample full] Completed splitting long triplegs in 628.97 seconds
+2024-11-13 08:54:06,950 - INFO - [A - Sample full] Starting preprocessing of triplegs data
+2024-11-13 08:54:10,239 - INFO - [A - Sample full] Filtered data to the first 30 days
+2024-11-13 08:54:30,602 - INFO - [A - Sample full] Converted LINESTRING to integer coordinates
+2024-11-13 08:54:32,881 - INFO - [A - Sample full] Completed preprocessing of triplegs in 25.93 seconds
+2024-11-13 08:54:33,104 - INFO - [A - Sample full] Minimum support threshold: 5
+2024-11-13 08:54:33,104 - INFO - [A - Sample full] Starting GSP algorithm with min_support=5
+2024-11-13 08:54:42,964 - INFO - generate_candidates for length 2: 9.86 seconds
+2024-11-13 08:55:58,278 - INFO - Optimized count_support: 75.31 seconds
+2024-11-13 08:56:00,427 - INFO - prune_candidates: 2.15 seconds
+2024-11-19 02:37:55,322 - INFO - Dataset A, sample=full
+2024-11-19 02:38:27,698 - INFO - [A - Sample full] Splitting long triplegs into shorter segments
+2024-11-19 02:48:18,155 - INFO - [A - Sample full] Completed splitting long triplegs in 590.46 seconds
+2024-11-19 02:52:17,469 - INFO - [A - Sample full] Starting preprocessing of triplegs data
+2024-11-19 02:52:20,727 - INFO - [A - Sample full] Filtered data to the first 30 days
+2024-11-19 02:52:43,100 - INFO - [A - Sample full] Converted LINESTRING to integer coordinates
+2024-11-19 02:52:45,171 - INFO - [A - Sample full] Completed preprocessing of triplegs in 27.70 seconds
+2024-11-19 02:52:45,246 - INFO - [A - Sample full] Minimum support threshold: 10
+2024-11-19 02:52:45,247 - INFO - [A - Sample full] Starting GSP algorithm with min_support=10
+2024-11-19 02:52:52,935 - INFO - generate_candidates for length 2: 7.69 seconds
+2024-11-19 02:54:10,230 - INFO - Optimized count_support: 77.29 seconds
+2024-11-19 02:54:12,275 - INFO - prune_candidates: 2.04 seconds
+2024-11-20 16:35:35,280 - INFO - Dataset A, sample=full
+2024-11-20 16:36:05,339 - INFO - [A - Sample full] Splitting long triplegs into shorter segments
+2024-11-20 16:46:00,108 - INFO - [A - Sample full] Completed splitting long triplegs in 594.77 seconds
+2024-11-20 16:49:57,172 - INFO - [A - Sample full] Starting preprocessing of triplegs data
+2024-11-20 16:50:00,296 - INFO - [A - Sample full] Filtered data to the first 30 days
+2024-11-20 16:50:07,068 - INFO - [A - Sample full] Converted LINESTRING to integer coordinates
+2024-11-20 16:50:08,233 - INFO - [A - Sample full] Completed preprocessing of triplegs in 11.06 seconds
+2024-11-20 16:50:08,263 - INFO - [A - Sample full] Minimum support threshold: 10
+2024-11-20 16:50:08,264 - INFO - [A - Sample full] Starting GSP algorithm with min_support=10
+2024-11-20 16:50:10,625 - INFO - generate_candidates for length 2: 2.36 seconds
+2024-11-20 16:50:36,883 - INFO - Optimized count_support: 26.26 seconds
+2024-11-20 16:50:37,823 - INFO - prune_candidates: 0.94 seconds
+2024-11-20 17:36:17,815 - INFO - Dataset A, sample=full
+2024-11-20 17:39:17,608 - INFO - Dataset A, sample=full
+2024-11-20 17:39:41,287 - INFO - [A - Sample full] Splitting long triplegs into shorter segments
+2024-11-20 17:49:47,016 - INFO - [A - Sample full] Completed splitting long triplegs in 605.73 seconds
+2024-11-20 17:53:49,134 - INFO - [A - Sample full] Starting preprocessing of triplegs data
+2024-11-20 17:53:52,292 - INFO - [A - Sample full] Filtered data to the first 30 days
+2024-11-20 17:53:59,321 - INFO - [A - Sample full] Converted LINESTRING to integer coordinates
+2024-11-20 17:54:00,463 - INFO - [A - Sample full] Completed preprocessing of triplegs in 11.33 seconds
+2024-11-20 17:54:00,493 - INFO - [A - Sample full] Minimum support threshold: 10
+2024-11-20 17:54:00,493 - INFO - [A - Sample full] Starting GSP algorithm with min_support=10
+2024-11-20 17:54:02,877 - INFO - generate_candidates for length 2: 2.38 seconds
+2024-11-20 17:54:29,357 - INFO - Optimized count_support: 26.48 seconds
+2024-11-20 17:54:30,430 - INFO - prune_candidates: 1.07 seconds
+2024-11-20 22:33:00,670 - INFO - Dataset A, sample=10000
+2024-11-20 22:33:26,414 - INFO - [A - Sample 10000] Splitting long triplegs into shorter segments
+2024-11-20 22:33:26,791 - INFO - [A - Sample 10000] Completed splitting long triplegs in 0.38 seconds
+2024-11-20 22:33:27,109 - INFO - [A - Sample 10000] Starting preprocessing of triplegs data
+2024-11-20 22:33:27,116 - INFO - [A - Sample 10000] Filtered data to the first 30 days
+2024-11-20 22:33:27,121 - INFO - [A - Sample 10000] Converted LINESTRING to integer coordinates
+2024-11-20 22:33:27,131 - INFO - [A - Sample 10000] Completed preprocessing of triplegs in 0.02 seconds
+2024-11-20 22:33:27,131 - INFO - [A - Sample 10000] Minimum support threshold: 10
+2024-11-20 22:33:27,131 - INFO - [A - Sample 10000] Starting GSP algorithm with min_support=10
+2024-11-20 22:33:27,133 - INFO - generate_candidates for length 2: 0.00 seconds
+2024-11-20 22:33:27,154 - INFO - Optimized count_support: 0.02 seconds
+2024-11-20 22:33:27,154 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:33:27,516 - INFO - generate_new_candidates for length 3: 0.36 seconds
+2024-11-20 22:33:27,535 - INFO - Optimized count_support: 0.02 seconds
+2024-11-20 22:33:27,535 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:33:27,535 - INFO - generate_new_candidates for length 4: 0.00 seconds
+2024-11-20 22:33:27,535 - INFO - [A - Sample 10000] Completed GSP algorithm in 0.40 seconds
+2024-11-20 22:33:27,535 - INFO - [A - Sample 10000] Number of frequent sequences: 2706
+2024-11-20 22:33:27,535 - INFO - [A - Sample 10000] Saving GSP results
+2024-11-20 22:33:27,540 - INFO - [A - Sample 10000] GSP results saved to gsp_A_sample10000_optimized.csv in 0.00 seconds
+2024-11-20 22:33:27,540 - INFO - =============================================
+2024-11-20 22:34:42,442 - INFO - Dataset A, sample=10000
+2024-11-20 22:35:07,188 - INFO - [A - Sample 10000] Splitting long triplegs into shorter segments
+2024-11-20 22:35:07,559 - INFO - [A - Sample 10000] Completed splitting long triplegs in 0.37 seconds
+2024-11-20 22:35:07,871 - INFO - [A - Sample 10000] Starting preprocessing of triplegs data
+2024-11-20 22:35:07,879 - INFO - [A - Sample 10000] Filtered data to the first 30 days
+2024-11-20 22:35:07,904 - INFO - [A - Sample 10000] Converted LINESTRING to integer coordinates
+2024-11-20 22:35:07,933 - INFO - [A - Sample 10000] Completed preprocessing of triplegs in 0.06 seconds
+2024-11-20 22:35:07,933 - INFO - [A - Sample 10000] Minimum support threshold: 2
+2024-11-20 22:35:07,933 - INFO - [A - Sample 10000] Starting GSP algorithm with min_support=2
+2024-11-20 22:35:07,936 - INFO - generate_candidates for length 2: 0.00 seconds
+2024-11-20 22:35:08,002 - INFO - Optimized count_support: 0.07 seconds
+2024-11-20 22:35:08,003 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:35:18,198 - INFO - generate_new_candidates for length 3: 10.19 seconds
+2024-11-20 22:35:18,259 - INFO - Optimized count_support: 0.06 seconds
+2024-11-20 22:35:18,259 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:35:18,260 - INFO - generate_new_candidates for length 4: 0.00 seconds
+2024-11-20 22:35:18,260 - INFO - [A - Sample 10000] Completed GSP algorithm in 10.33 seconds
+2024-11-20 22:35:18,260 - INFO - [A - Sample 10000] Number of frequent sequences: 14429
+2024-11-20 22:35:18,260 - INFO - [A - Sample 10000] Saving GSP results
+2024-11-20 22:35:18,283 - INFO - [A - Sample 10000] GSP results saved to gsp_A_sample10000_optimized.csv in 0.02 seconds
+2024-11-20 22:35:18,283 - INFO - =============================================

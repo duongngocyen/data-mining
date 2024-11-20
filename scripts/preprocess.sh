@@ -1,0 +1,1 @@
+python src/preprocessing.py 2>&1 | tee -a logs/preprocessing.log

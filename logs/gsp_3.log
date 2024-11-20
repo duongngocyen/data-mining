@@ -1,0 +1,22 @@
+python: can't open file '/home/ngocyen/GNN/SC4020_project/Project2/src/gsp_3.py': [Errno 2] No such file or directory
+2024-11-06 22:27:09,607 - INFO - Dataset D, sample=10000
+2024-11-06 22:27:09,637 - INFO - [D - Sample 10000] Splitting long triplegs into shorter segments
+2024-11-06 22:27:10,002 - INFO - [D - Sample 10000] Completed splitting long triplegs in 0.36 seconds
+2024-11-06 22:27:10,140 - INFO - [D - Sample 10000] Starting preprocessing of triplegs data
+2024-11-06 22:27:10,155 - INFO - [D - Sample 10000] Filtered data to the first 30 days
+2024-11-06 22:27:10,186 - INFO - [D - Sample 10000] Converted LINESTRING to integer coordinates
+2024-11-06 22:27:10,191 - INFO - [D - Sample 10000] Completed preprocessing of triplegs in 0.05 seconds
+2024-11-06 22:27:10,191 - INFO - [D - Sample 10000] Minimum support threshold: 2
+2024-11-06 22:27:10,191 - INFO - [D - Sample 10000] Starting GSP algorithm with min_support=2
+2024-11-06 22:27:10,194 - INFO - generate_candidates for length 2: 0.00 seconds
+2024-11-06 22:27:10,246 - INFO - Optimized count_support without hashing: 0.05 seconds
+2024-11-06 22:27:10,247 - INFO - prune_candidates: 0.00 seconds
+2024-11-06 22:27:18,833 - INFO - generate_new_candidates for length 3: 8.59 seconds
+2024-11-06 22:27:18,880 - INFO - Optimized count_support without hashing: 0.05 seconds
+2024-11-06 22:27:18,880 - INFO - prune_candidates: 0.00 seconds
+2024-11-06 22:27:18,882 - INFO - generate_new_candidates for length 4: 0.00 seconds
+2024-11-06 22:27:18,882 - INFO - [D - Sample 10000] Completed GSP algorithm in 8.69 seconds
+2024-11-06 22:27:18,882 - INFO - [D - Sample 10000] Number of frequent sequences: 13701
+2024-11-06 22:27:18,882 - INFO - [D - Sample 10000] Saving GSP results
+2024-11-06 22:27:18,910 - INFO - [D - Sample 10000] GSP results saved to gsp_D_sample10000_optimized_2.csv in 0.03 seconds
+2024-11-06 22:27:18,910 - INFO - =============================================

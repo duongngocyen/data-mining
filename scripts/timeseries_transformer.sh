@@ -1,0 +1,1 @@
+python src/timeseries_transformer.py --data_file output/triplegs_D.csv --window_size 10 --batch_size 4096 --lr 0.0001 --epochs 100 --gpus 1 2 3 2>&1 | tee -a logs/timeseries_transformer_D.log

@@ -1,0 +1,1 @@
+python src/gsp_2.py 2>&1 | tee -a logs/gsp_2.log

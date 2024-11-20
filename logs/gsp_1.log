@@ -1,0 +1,178 @@
+2024-11-06 21:33:01,306 - INFO - Dataset D, sample=10000
+2024-11-06 21:33:01,327 - INFO - [D - Sample 10000] Splitting long triplegs into shorter segments
+2024-11-06 21:33:01,690 - INFO - [D - Sample 10000] Completed splitting long triplegs in 0.36 seconds
+2024-11-06 21:33:01,832 - INFO - [D - Sample 10000] Starting preprocessing of triplegs data
+2024-11-06 21:33:01,835 - INFO - [D - Sample 10000] Filtered data to the first 30 days
+2024-11-06 21:33:01,862 - INFO - [D - Sample 10000] Converted LINESTRING to integer coordinates
+2024-11-06 21:33:01,864 - INFO - [D - Sample 10000] Completed preprocessing of triplegs in 0.03 seconds
+2024-11-06 21:33:01,864 - INFO - [D - Sample 10000] Minimum support threshold: 2
+2024-11-06 21:33:01,864 - INFO - [D - Sample 10000] Starting GSP algorithm with min_support=2
+2024-11-06 21:33:01,867 - INFO - generate_candidates for length 2: 0.00 seconds
+2024-11-06 21:33:25,533 - INFO - count_support for 14051 candidates: 23.67 seconds
+2024-11-06 21:33:25,533 - INFO - [D - Sample 10000] Support counting for length 2: 23.67 seconds
+2024-11-06 21:33:25,534 - INFO - prune_candidates: 0.00 seconds
+2024-11-06 21:33:25,534 - INFO - [D - Sample 10000] Pruning for length 2: 0.00 seconds
+2024-11-06 21:33:26,296 - INFO - generate_new_candidates for length 3: 0.76 seconds
+2024-11-06 21:33:26,296 - INFO - [D - Sample 10000] Generating new candidates for length 3: 0.76 seconds
+2024-11-06 21:33:51,341 - INFO - count_support for 14937 candidates: 25.05 seconds
+2024-11-06 21:33:51,342 - INFO - [D - Sample 10000] Support counting for length 3: 25.05 seconds
+2024-11-06 21:33:51,342 - INFO - prune_candidates: 0.00 seconds
+2024-11-06 21:33:51,343 - INFO - [D - Sample 10000] Pruning for length 3: 0.00 seconds
+2024-11-06 21:33:51,818 - INFO - generate_new_candidates for length 4: 0.47 seconds
+2024-11-06 21:33:51,818 - INFO - [D - Sample 10000] Generating new candidates for length 4: 0.47 seconds
+2024-11-06 21:33:55,484 - INFO - count_support for 2177 candidates: 3.67 seconds
+2024-11-06 21:33:55,484 - INFO - [D - Sample 10000] Support counting for length 4: 3.67 seconds
+2024-11-06 21:33:55,484 - INFO - prune_candidates: 0.00 seconds
+2024-11-06 21:33:55,484 - INFO - [D - Sample 10000] Pruning for length 4: 0.00 seconds
+2024-11-06 21:33:55,510 - INFO - generate_new_candidates for length 5: 0.03 seconds
+2024-11-06 21:33:55,510 - INFO - [D - Sample 10000] Generating new candidates for length 5: 0.03 seconds
+2024-11-06 21:33:55,693 - INFO - count_support for 109 candidates: 0.18 seconds
+2024-11-06 21:33:55,694 - INFO - [D - Sample 10000] Support counting for length 5: 0.18 seconds
+2024-11-06 21:33:55,694 - INFO - prune_candidates: 0.00 seconds
+2024-11-06 21:33:55,694 - INFO - [D - Sample 10000] Pruning for length 5: 0.00 seconds
+2024-11-06 21:33:55,694 - INFO - generate_new_candidates for length 6: 0.00 seconds
+2024-11-06 21:33:55,694 - INFO - [D - Sample 10000] Generating new candidates for length 6: 0.00 seconds
+2024-11-06 21:33:55,695 - INFO - count_support for 1 candidates: 0.00 seconds
+2024-11-06 21:33:55,695 - INFO - [D - Sample 10000] Support counting for length 6: 0.00 seconds
+2024-11-06 21:33:55,695 - INFO - prune_candidates: 0.00 seconds
+2024-11-06 21:33:55,695 - INFO - [D - Sample 10000] Pruning for length 6: 0.00 seconds
+2024-11-06 21:33:55,695 - INFO - generate_new_candidates for length 7: 0.00 seconds
+2024-11-06 21:33:55,695 - INFO - [D - Sample 10000] Generating new candidates for length 7: 0.00 seconds
+2024-11-06 21:33:55,695 - INFO - [D - Sample 10000] Completed GSP algorithm in 53.83 seconds
+2024-11-06 21:33:55,695 - INFO - [D - Sample 10000] Number of frequent sequences: 8604
+2024-11-06 21:33:55,695 - INFO - [D - Sample 10000] Saving GSP results
+2024-11-06 21:33:55,712 - INFO - [D - Sample 10000] GSP results saved to gsp_D_sample10000.csv in 0.02 seconds
+2024-11-06 21:33:55,712 - INFO - =============================================
+2024-11-20 22:35:53,399 - INFO - Dataset D, sample=10000
+2024-11-20 22:35:53,435 - INFO - [D - Sample 10000] Splitting long triplegs into shorter segments
+2024-11-20 22:35:53,812 - INFO - [D - Sample 10000] Completed splitting long triplegs in 0.38 seconds
+2024-11-20 22:35:53,963 - INFO - [D - Sample 10000] Starting preprocessing of triplegs data
+2024-11-20 22:35:53,966 - INFO - [D - Sample 10000] Filtered data to the first 30 days
+2024-11-20 22:35:53,994 - INFO - [D - Sample 10000] Converted LINESTRING to integer coordinates
+2024-11-20 22:35:53,996 - INFO - [D - Sample 10000] Completed preprocessing of triplegs in 0.03 seconds
+2024-11-20 22:35:53,996 - INFO - [D - Sample 10000] Minimum support threshold: 2
+2024-11-20 22:35:53,996 - INFO - [D - Sample 10000] Starting GSP algorithm with min_support=2
+2024-11-20 22:35:54,000 - INFO - generate_candidates for length 2: 0.00 seconds
+2024-11-20 22:36:06,289 - INFO - Dataset B, sample=10000
+2024-11-20 22:36:06,322 - INFO - [B - Sample 10000] Splitting long triplegs into shorter segments
+2024-11-20 22:36:06,698 - INFO - [B - Sample 10000] Completed splitting long triplegs in 0.38 seconds
+2024-11-20 22:36:06,850 - INFO - [B - Sample 10000] Starting preprocessing of triplegs data
+2024-11-20 22:36:06,854 - INFO - [B - Sample 10000] Filtered data to the first 30 days
+2024-11-20 22:36:06,878 - INFO - [B - Sample 10000] Converted LINESTRING to integer coordinates
+2024-11-20 22:36:06,879 - INFO - [B - Sample 10000] Completed preprocessing of triplegs in 0.03 seconds
+2024-11-20 22:36:06,879 - INFO - [B - Sample 10000] Minimum support threshold: 2
+2024-11-20 22:36:06,879 - INFO - [B - Sample 10000] Starting GSP algorithm with min_support=2
+2024-11-20 22:36:06,882 - INFO - generate_candidates for length 2: 0.00 seconds
+2024-11-20 22:36:25,286 - INFO - count_support for 11379 candidates: 18.40 seconds
+2024-11-20 22:36:25,286 - INFO - [B - Sample 10000] Support counting for length 2: 18.40 seconds
+2024-11-20 22:36:25,287 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:36:25,287 - INFO - [B - Sample 10000] Pruning for length 2: 0.00 seconds
+2024-11-20 22:36:25,747 - INFO - generate_new_candidates for length 3: 0.46 seconds
+2024-11-20 22:36:25,747 - INFO - [B - Sample 10000] Generating new candidates for length 3: 0.46 seconds
+2024-11-20 22:36:46,784 - INFO - count_support for 13036 candidates: 21.04 seconds
+2024-11-20 22:36:46,785 - INFO - [B - Sample 10000] Support counting for length 3: 21.04 seconds
+2024-11-20 22:36:46,785 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:36:46,786 - INFO - [B - Sample 10000] Pruning for length 3: 0.00 seconds
+2024-11-20 22:36:46,934 - INFO - generate_new_candidates for length 4: 0.15 seconds
+2024-11-20 22:36:46,934 - INFO - [B - Sample 10000] Generating new candidates for length 4: 0.15 seconds
+2024-11-20 22:36:48,872 - INFO - count_support for 1214 candidates: 1.94 seconds
+2024-11-20 22:36:48,872 - INFO - [B - Sample 10000] Support counting for length 4: 1.94 seconds
+2024-11-20 22:36:48,872 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:36:48,873 - INFO - [B - Sample 10000] Pruning for length 4: 0.00 seconds
+2024-11-20 22:36:48,884 - INFO - generate_new_candidates for length 5: 0.01 seconds
+2024-11-20 22:36:48,884 - INFO - [B - Sample 10000] Generating new candidates for length 5: 0.01 seconds
+2024-11-20 22:36:49,051 - INFO - count_support for 104 candidates: 0.17 seconds
+2024-11-20 22:36:49,051 - INFO - [B - Sample 10000] Support counting for length 5: 0.17 seconds
+2024-11-20 22:36:49,051 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:36:49,051 - INFO - [B - Sample 10000] Pruning for length 5: 0.00 seconds
+2024-11-20 22:36:49,051 - INFO - generate_new_candidates for length 6: 0.00 seconds
+2024-11-20 22:36:49,051 - INFO - [B - Sample 10000] Generating new candidates for length 6: 0.00 seconds
+2024-11-20 22:36:49,054 - INFO - count_support for 2 candidates: 0.00 seconds
+2024-11-20 22:36:49,054 - INFO - [B - Sample 10000] Support counting for length 6: 0.00 seconds
+2024-11-20 22:36:49,054 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:36:49,054 - INFO - [B - Sample 10000] Pruning for length 6: 0.00 seconds
+2024-11-20 22:36:49,054 - INFO - generate_new_candidates for length 7: 0.00 seconds
+2024-11-20 22:36:49,054 - INFO - [B - Sample 10000] Generating new candidates for length 7: 0.00 seconds
+2024-11-20 22:36:49,054 - INFO - [B - Sample 10000] Completed GSP algorithm in 42.18 seconds
+2024-11-20 22:36:49,054 - INFO - [B - Sample 10000] Number of frequent sequences: 5894
+2024-11-20 22:36:49,054 - INFO - [B - Sample 10000] Saving GSP results
+2024-11-20 22:36:49,066 - INFO - [B - Sample 10000] GSP results saved to gsp_B_sample10000.csv in 0.01 seconds
+2024-11-20 22:36:49,066 - INFO - =============================================
+2024-11-20 22:37:01,829 - INFO - Dataset C, sample=10000
+2024-11-20 22:37:01,868 - INFO - [C - Sample 10000] Splitting long triplegs into shorter segments
+2024-11-20 22:37:02,273 - INFO - [C - Sample 10000] Completed splitting long triplegs in 0.41 seconds
+2024-11-20 22:37:02,434 - INFO - [C - Sample 10000] Starting preprocessing of triplegs data
+2024-11-20 22:37:02,437 - INFO - [C - Sample 10000] Filtered data to the first 30 days
+2024-11-20 22:37:02,473 - INFO - [C - Sample 10000] Converted LINESTRING to integer coordinates
+2024-11-20 22:37:02,474 - INFO - [C - Sample 10000] Completed preprocessing of triplegs in 0.04 seconds
+2024-11-20 22:37:02,474 - INFO - [C - Sample 10000] Minimum support threshold: 2
+2024-11-20 22:37:02,474 - INFO - [C - Sample 10000] Starting GSP algorithm with min_support=2
+2024-11-20 22:37:02,477 - INFO - generate_candidates for length 2: 0.00 seconds
+2024-11-20 22:37:19,950 - INFO - count_support for 10828 candidates: 17.47 seconds
+2024-11-20 22:37:19,950 - INFO - [C - Sample 10000] Support counting for length 2: 17.47 seconds
+2024-11-20 22:37:19,951 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:37:19,951 - INFO - [C - Sample 10000] Pruning for length 2: 0.00 seconds
+2024-11-20 22:37:20,336 - INFO - generate_new_candidates for length 3: 0.38 seconds
+2024-11-20 22:37:20,336 - INFO - [C - Sample 10000] Generating new candidates for length 3: 0.38 seconds
+2024-11-20 22:37:38,850 - INFO - count_support for 11416 candidates: 18.51 seconds
+2024-11-20 22:37:38,851 - INFO - [C - Sample 10000] Support counting for length 3: 18.51 seconds
+2024-11-20 22:37:38,851 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:37:38,851 - INFO - [C - Sample 10000] Pruning for length 3: 0.00 seconds
+2024-11-20 22:37:39,015 - INFO - generate_new_candidates for length 4: 0.16 seconds
+2024-11-20 22:37:39,015 - INFO - [C - Sample 10000] Generating new candidates for length 4: 0.16 seconds
+2024-11-20 22:37:41,330 - INFO - count_support for 1403 candidates: 2.31 seconds
+2024-11-20 22:37:41,331 - INFO - [C - Sample 10000] Support counting for length 4: 2.32 seconds
+2024-11-20 22:37:41,331 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:37:41,331 - INFO - [C - Sample 10000] Pruning for length 4: 0.00 seconds
+2024-11-20 22:37:41,342 - INFO - generate_new_candidates for length 5: 0.01 seconds
+2024-11-20 22:37:41,342 - INFO - [C - Sample 10000] Generating new candidates for length 5: 0.01 seconds
+2024-11-20 22:37:41,459 - INFO - count_support for 68 candidates: 0.12 seconds
+2024-11-20 22:37:41,459 - INFO - [C - Sample 10000] Support counting for length 5: 0.12 seconds
+2024-11-20 22:37:41,460 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:37:41,460 - INFO - [C - Sample 10000] Pruning for length 5: 0.00 seconds
+2024-11-20 22:37:41,460 - INFO - generate_new_candidates for length 6: 0.00 seconds
+2024-11-20 22:37:41,460 - INFO - [C - Sample 10000] Generating new candidates for length 6: 0.00 seconds
+2024-11-20 22:37:41,460 - INFO - [C - Sample 10000] Completed GSP algorithm in 38.99 seconds
+2024-11-20 22:37:41,460 - INFO - [C - Sample 10000] Number of frequent sequences: 5552
+2024-11-20 22:37:41,460 - INFO - [C - Sample 10000] Saving GSP results
+2024-11-20 22:37:41,471 - INFO - [C - Sample 10000] GSP results saved to gsp_C_sample10000.csv in 0.01 seconds
+2024-11-20 22:37:41,471 - INFO - =============================================
+2024-11-20 22:38:02,679 - INFO - Dataset A, sample=10000
+2024-11-20 22:38:02,698 - INFO - [A - Sample 10000] Splitting long triplegs into shorter segments
+2024-11-20 22:38:03,079 - INFO - [A - Sample 10000] Completed splitting long triplegs in 0.38 seconds
+2024-11-20 22:38:03,226 - INFO - [A - Sample 10000] Starting preprocessing of triplegs data
+2024-11-20 22:38:03,229 - INFO - [A - Sample 10000] Filtered data to the first 30 days
+2024-11-20 22:38:03,253 - INFO - [A - Sample 10000] Converted LINESTRING to integer coordinates
+2024-11-20 22:38:03,254 - INFO - [A - Sample 10000] Completed preprocessing of triplegs in 0.03 seconds
+2024-11-20 22:38:03,254 - INFO - [A - Sample 10000] Minimum support threshold: 2
+2024-11-20 22:38:03,254 - INFO - [A - Sample 10000] Starting GSP algorithm with min_support=2
+2024-11-20 22:38:03,257 - INFO - generate_candidates for length 2: 0.00 seconds
+2024-11-20 22:38:25,130 - INFO - count_support for 12733 candidates: 21.87 seconds
+2024-11-20 22:38:25,130 - INFO - [A - Sample 10000] Support counting for length 2: 21.87 seconds
+2024-11-20 22:38:25,131 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:38:25,131 - INFO - [A - Sample 10000] Pruning for length 2: 0.00 seconds
+2024-11-20 22:38:25,493 - INFO - generate_new_candidates for length 3: 0.36 seconds
+2024-11-20 22:38:25,493 - INFO - [A - Sample 10000] Generating new candidates for length 3: 0.36 seconds
+2024-11-20 22:38:37,107 - INFO - count_support for 6981 candidates: 11.61 seconds
+2024-11-20 22:38:37,108 - INFO - [A - Sample 10000] Support counting for length 3: 11.61 seconds
+2024-11-20 22:38:37,108 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:38:37,108 - INFO - [A - Sample 10000] Pruning for length 3: 0.00 seconds
+2024-11-20 22:38:37,225 - INFO - generate_new_candidates for length 4: 0.12 seconds
+2024-11-20 22:38:37,225 - INFO - [A - Sample 10000] Generating new candidates for length 4: 0.12 seconds
+2024-11-20 22:38:38,721 - INFO - count_support for 937 candidates: 1.50 seconds
+2024-11-20 22:38:38,722 - INFO - [A - Sample 10000] Support counting for length 4: 1.50 seconds
+2024-11-20 22:38:38,722 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:38:38,722 - INFO - [A - Sample 10000] Pruning for length 4: 0.00 seconds
+2024-11-20 22:38:38,728 - INFO - generate_new_candidates for length 5: 0.01 seconds
+2024-11-20 22:38:38,728 - INFO - [A - Sample 10000] Generating new candidates for length 5: 0.01 seconds
+2024-11-20 22:38:38,795 - INFO - count_support for 42 candidates: 0.07 seconds
+2024-11-20 22:38:38,795 - INFO - [A - Sample 10000] Support counting for length 5: 0.07 seconds
+2024-11-20 22:38:38,795 - INFO - prune_candidates: 0.00 seconds
+2024-11-20 22:38:38,795 - INFO - [A - Sample 10000] Pruning for length 5: 0.00 seconds
+2024-11-20 22:38:38,795 - INFO - generate_new_candidates for length 6: 0.00 seconds
+2024-11-20 22:38:38,795 - INFO - [A - Sample 10000] Generating new candidates for length 6: 0.00 seconds
+2024-11-20 22:38:38,795 - INFO - [A - Sample 10000] Completed GSP algorithm in 35.54 seconds
+2024-11-20 22:38:38,795 - INFO - [A - Sample 10000] Number of frequent sequences: 5054
+2024-11-20 22:38:38,795 - INFO - [A - Sample 10000] Saving GSP results
+2024-11-20 22:38:38,806 - INFO - [A - Sample 10000] GSP results saved to gsp_A_sample10000.csv in 0.01 seconds
+2024-11-20 22:38:38,806 - INFO - =============================================
