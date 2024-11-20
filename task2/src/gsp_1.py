@@ -148,23 +148,23 @@ def save_gsp_results(gsp_results, name, sample_number):
     logging.info(f"[{name} - Sample {sample_number}] GSP results saved to {output_file} in {end_time - start_time:.2f} seconds")
 
 # Define variables for name and sample_number
-name = 'A'
-sample_number = 10000
+for name in ['A', 'B', 'C', 'D']:
+    sample_number = 10000
 
-logging.info(f'Dataset {name}, sample={sample_number}')
+    logging.info(f'Dataset {name}, sample={sample_number}')
 
-# Load the data
-df = pd.read_csv(f'./output/triplegs_{name}.csv', nrows=sample_number)
+    # Load the data
+    df = pd.read_csv(f'./output/triplegs_{name}.csv', nrows=sample_number)
 
-df = split_long_triplegs(df, name, sample_number)
-sequences = preprocess_triplegs(df, name, sample_number)
+    df = split_long_triplegs(df, name, sample_number)
+    sequences = preprocess_triplegs(df, name, sample_number)
 
-min_support = 2
-logging.info(f"[{name} - Sample {sample_number}] Minimum support threshold: {min_support}")
+    min_support = 2
+    logging.info(f"[{name} - Sample {sample_number}] Minimum support threshold: {min_support}")
 
-frequent_sequences = gsp(sequences, name, sample_number, min_support)
-logging.info(f"[{name} - Sample {sample_number}] Number of frequent sequences: {len(frequent_sequences)}")
+    frequent_sequences = gsp(sequences, name, sample_number, min_support)
+    logging.info(f"[{name} - Sample {sample_number}] Number of frequent sequences: {len(frequent_sequences)}")
 
-save_gsp_results(frequent_sequences, name, sample_number)
+    save_gsp_results(frequent_sequences, name, sample_number)
 
-logging.info("=============================================")
+    logging.info("=============================================")

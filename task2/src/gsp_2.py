@@ -191,7 +191,7 @@ def save_gsp_results(gsp_results, name, sample_number):
     logging.info(f"[{name} - Sample {sample_number}] GSP results saved to {output_file} in {end_time - start_time:.2f} seconds")
 
 # Define variables for name and sample_number
-for name in ['A']:
+for name in ['A', 'B', 'C', 'D']:
     sample_number = 10000
 
     logging.info(f'Dataset {name}, sample={sample_number}')
